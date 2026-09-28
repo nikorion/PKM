@@ -1,0 +1,11 @@
+disciplines: [[computer science]]
+equipment: laptop
+needs: verify
+project: KMS
+role: guide
+tags: [[KMS Demo]]
+technology: TiddlyWiki [[Node.js]] pnpm
+title: Set Up a Dev Wiki
+type: text/vnd.tiddlywiki
+
+Clone the repositories side by side, create the plugin symlinks, then run `pnpm dev`.

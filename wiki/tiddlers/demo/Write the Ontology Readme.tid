@@ -1,0 +1,8 @@
+project: KMS
+role: task
+status: doing
+tags: [[KMS Demo]]
+title: Write the Ontology Readme
+type: text/vnd.tiddlywiki
+
+Explain the fields, the slugs and the API.

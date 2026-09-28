@@ -1,0 +1,9 @@
+title: $:/nikorion/language/fr-FR/Playground/
+
+Intro: Le wiki d'intégration de la suite //kms// : tous les plugins de la suite chargés ensemble, sur quelques tiddlers de démonstration — l'ontologie définit les champs, Base Fields les édite, Dynamic Table les dispose en colonnes.
+TableHeading: ! Les tiddlers de démonstration, en tableau
+TableBody: Chaque colonne est un champ de l'ontologie, avec son libellé en en-tête et ses valeurs affichées avec leurs icônes et libellés. Clique sur le crayon de la légende pour les éditer sur place : listes déroulantes pour les vocabulaires, cases à cocher pour Besoins, sélecteur de Base Fields pour les listes.
+EditorHeading: ! Dans l'éditeur
+EditorBody: Ouvre l'un d'eux et modifie-le pour voir les mêmes champs dans l'éditeur de tiddler. //Old Plugin Layout// porte encore un `status`, qu'une référence n'utilise pas : l'éditeur l'affiche entouré de rouge.
+OntologyHeading: ! L'ontologie
+OntologyBody: L'onglet //Champs// du plugin KMS Ontology liste chaque champ et chaque valeur, avec son sens.

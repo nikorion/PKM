@@ -1,0 +1,11 @@
+{
+  "watch": [
+    "../TW-KMS-Ontology/src/kms-ontology/plugin.info",
+    "../TW-Base-Fields/src/base-fields/plugin.info",
+    "../TW-Dynamic-Table/src/dyntable/plugin.info",
+    "../TW-Detect-Language/src/detect-language/plugin.info",
+    "../TW-Detect-Language/src/detect-language/modules"
+  ],
+  "ext": "info,js",
+  "exec": "tiddlywiki wiki --listen port=8080"
+}

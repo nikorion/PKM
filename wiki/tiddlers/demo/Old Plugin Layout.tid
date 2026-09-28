@@ -1,0 +1,9 @@
+lifecycle: obsolete
+maturity: stable
+role: ref
+status: done
+tags: [[KMS Demo]]
+title: Old Plugin Layout
+type: text/vnd.tiddlywiki
+
+Where each file lived before the kms suite took the fields out of Base Fields. Superseded — and it still carries a `status`, which a reference does not use: edit it to see the red frame.

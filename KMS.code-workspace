@@ -1,0 +1,10 @@
+{
+	"folders": [
+		{ "path": "." },
+		{ "path": "../TW-KMS-Ontology" },
+		{ "path": "../TW-Base-Fields" },
+		{ "path": "../TW-Dynamic-Table" },
+		{ "path": "../TW-Detect-Language" }
+	],
+	"settings": {}
+}

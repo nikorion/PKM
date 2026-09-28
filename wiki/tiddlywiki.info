@@ -1,0 +1,27 @@
+{
+  "description": "kms suite integration wiki",
+  "plugins": [
+    "tiddlywiki/filesystem",
+    "tiddlywiki/tiddlyweb",
+    "nikorion/kms-ontology",
+    "nikorion/base-fields",
+    "nikorion/dyntable",
+    "nikorion/detect-language"
+  ],
+  "themes": [
+    "tiddlywiki/vanilla"
+  ],
+  "languages": [
+    "fr-FR"
+  ],
+  "config": {
+    "retain-original-tiddler-path": true
+  },
+  "build": {
+    "html": [
+      "--output", "docs",
+      "--rendertiddler", "$:/core/save/all", "KMS-Wiki.html", "text/plain", "",
+      "publishFilter", "-[[$:/dev/hmr]] -[[$:/config/dev/hmr-port]] -[[$:/config/SyncFilter]] -[[$:/config/FileSystemPaths]] -[[$:/config/OriginalTiddlerPaths]]"
+    ]
+  }
+}
