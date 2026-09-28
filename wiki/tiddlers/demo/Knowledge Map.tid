@@ -1,6 +1,10 @@
+caption: <<detect-language-lingo "Demo/Title/Knowledge Map">>
+created: 20260928183056300
+disciplines: [[computer science]]
+modified: 20260928183205067
 role: hub
-tags: [[KMS Demo]]
+tags: [[PKM Demo]]
 title: Knowledge Map
 type: text/vnd.tiddlywiki
 
-The way in to the demo tiddlers: <<list-links filter:"[tag[KMS Demo]!title[Knowledge Map]]">>
+The way in to the demo tiddlers: <<list-links filter:"[tag[PKM Demo]!title[Knowledge Map]]">>

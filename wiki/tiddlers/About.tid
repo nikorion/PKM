@@ -1,0 +1,12 @@
+title: About
+type: text/vnd.tiddlywiki
+
+<<detect-language-lingo "About/Intro">>
+
+<<detect-language-lingo "About/TermsHeading" mode="block">>
+
+<<detect-language-lingo "About/Garden">>
+
+<<detect-language-lingo "About/Pkm">>
+
+<<detect-language-lingo "About/Rule">>

@@ -1,0 +1,18 @@
+{
+	"folders": [
+		{ "path": "." },
+		{ "path": "../TW-PKM-Schema" },
+		{ "path": "../TW-PKM-Fields" },
+		{ "path": "../TW-Dynamic-Table" },
+		{ "path": "../TW-Detect-Language" },
+		{ "path": "../TW-Table" },
+		{ "path": "../TW-Math" },
+		{ "path": "../TW-Chart" },
+		{ "path": "../TW-Fonts" },
+		{ "path": "../TW-Hover-Tilt" },
+		{ "path": "../TW-Plugin-Info-Tree" },
+		{ "path": "../TW-Scroll-Layout" },
+		{ "path": "../TW-Tiny-Bootstrap" }
+	],
+	"settings": {}
+}

@@ -1,0 +1,11 @@
+caption: <<detect-language-lingo "Demo/Title/Write the Schema Readme">>
+due: 2026-10-05
+priority: 2
+project: PKM
+role: task
+status: doing
+tags: [[PKM Demo]]
+title: Write the Schema Readme
+type: text/vnd.tiddlywiki
+
+Explain the fields, the slugs and the API.

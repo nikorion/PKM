@@ -1,11 +1,19 @@
 {
-  "description": "kms suite integration wiki",
+  "description": "pkm suite integration wiki",
   "plugins": [
     "tiddlywiki/filesystem",
     "tiddlywiki/tiddlyweb",
-    "nikorion/kms-ontology",
-    "nikorion/base-fields",
+    "nikorion/pkm-schema",
+    "nikorion/pkm-fields",
     "nikorion/dyntable",
+    "nikorion/table",
+    "nikorion/math",
+    "nikorion/chart",
+    "nikorion/fonts",
+    "nikorion/hover-tilt",
+    "nikorion/plugin-info-tree",
+    "nikorion/scroll-layout",
+    "nikorion/tiny-bootstrap",
     "nikorion/detect-language"
   ],
   "themes": [
@@ -20,7 +28,7 @@
   "build": {
     "html": [
       "--output", "docs",
-      "--rendertiddler", "$:/core/save/all", "KMS-Wiki.html", "text/plain", "",
+      "--rendertiddler", "$:/core/save/all", "PKM-Wiki.html", "text/plain", "",
       "publishFilter", "-[[$:/dev/hmr]] -[[$:/config/dev/hmr-port]] -[[$:/config/SyncFilter]] -[[$:/config/FileSystemPaths]] -[[$:/config/OriginalTiddlerPaths]]"
     ]
   }

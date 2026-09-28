@@ -1,9 +1,9 @@
 title: $:/nikorion/language/en-GB/Playground/
 
-Intro: The integration wiki of the //kms// suite: every plugin of the suite loaded together, on a few demo tiddlers — the ontology defines the fields, Base Fields edits them, Dynamic Table lays them out as columns.
+Intro: The integration wiki of the //pkm// suite: every plugin of the suite loaded together, on a few demo tiddlers — the schema defines the fields, PKM Fields edits them, Dynamic Table lays them out as columns.
 TableHeading: ! The demo tiddlers, in a table
-TableBody: Each column is a field of the ontology, with its label as header and its values shown with their icons and labels. Click the pencil in the caption to edit them in place: dropdowns for the vocabularies, checkboxes for Needs, the Base Fields picker for the lists.
+TableBody: Each column is a field of the schema, with its label as header and its values shown with their icons and labels. Click the pencil in the caption to edit them in place: dropdowns for the vocabularies, checkboxes for Needs, the PKM Fields picker for the lists, a date picker for Due. A finished task (status //Done//) is written in pale green.
 EditorHeading: ! In the editor
-EditorBody: Open any of them and edit it to see the same fields in the tiddler editor. //Old Plugin Layout// still holds a `status`, which a reference does not use: the editor shows it framed in red.
-OntologyHeading: ! The ontology
-OntologyBody: The //Fields// tab of the KMS Ontology plugin lists every field and every value, with what it means.
+EditorBody: Open any of them and edit it to see the same fields in the tiddler editor. //Old Plugin Layout// still holds a `status`, which a reference does not use: the editor shows it framed in red, and the table leaves its row uncoloured although it says //Done//.
+SchemaHeading: ! The schema
+SchemaBody: The //Fields// tab of the PKM Schema plugin lists every field and every value, with what it means.

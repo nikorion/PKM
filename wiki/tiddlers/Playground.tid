@@ -7,12 +7,12 @@ type: text/vnd.tiddlywiki
 
 <<detect-language-lingo "Playground/TableBody">>
 
-<<dyntable filter:"[tag[KMS Demo]]" fields:"title role maturity lifecycle needs status project disciplines technology" stateTiddler:"Playground/demo">>
+<<dyntable filter:"[tag[PKM Demo]]" fields:"title role maturity lifecycle needs status priority due project epistemology regime deviation disciplines technology equipment" stateTiddler:"Playground/demo">>
 
 <<detect-language-lingo "Playground/EditorHeading" mode="block">>
 
 <<detect-language-lingo "Playground/EditorBody">>
 
-<<detect-language-lingo "Playground/OntologyHeading" mode="block">>
+<<detect-language-lingo "Playground/SchemaHeading" mode="block">>
 
-<<detect-language-lingo "Playground/OntologyBody">>
+<<detect-language-lingo "Playground/SchemaBody">>

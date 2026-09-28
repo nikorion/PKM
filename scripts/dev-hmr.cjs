@@ -41,13 +41,21 @@ const path = require("path");
 // ../../guides/hmr-tiddlywiki.md §6 for the "wiki/tiddlers" addendum). The
 // wiki/tiddlers root is the same relative path on every nikorion plugin, so
 // unlike WATCH_DIR it needs no per-plugin adaptation when porting this file.
-// The kms integration wiki watches the sources of every plugin of the suite it loads,
+// The pkm integration wiki watches the sources of every plugin of the suite it loads,
 // plus its own wiki/tiddlers.
 const WATCH_DIRS = [
-  path.resolve("../TW-KMS-Ontology/src/kms-ontology"),
-  path.resolve("../TW-Base-Fields/src/base-fields"),
+  path.resolve("../TW-PKM-Schema/src/pkm-schema"),
+  path.resolve("../TW-PKM-Fields/src/pkm-fields"),
   path.resolve("../TW-Dynamic-Table/src/dyntable"),
   path.resolve("../TW-Detect-Language/src/detect-language"),
+  path.resolve("../TW-Table/src/table"),
+  path.resolve("../TW-Math/src/math"),
+  path.resolve("../TW-Chart/src/chart"),
+  path.resolve("../TW-Fonts/src/fonts"),
+  path.resolve("../TW-Hover-Tilt/src/hover-tilt"),
+  path.resolve("../TW-Plugin-Info-Tree/src/plugin-info-tree"),
+  path.resolve("../TW-Scroll-Layout/src/scroll-layout"),
+  path.resolve("../TW-Tiny-Bootstrap/src/tiny-bootstrap"),
   path.resolve("wiki/tiddlers"),
 ];
 // Transient/generated wiki tiddlers (see .gitignore): excluded from

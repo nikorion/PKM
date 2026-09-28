@@ -1,9 +1,11 @@
+caption: <<detect-language-lingo "Demo/Title/Set Up a Dev Wiki">>
 disciplines: [[computer science]]
+epistemology: applied
 equipment: laptop
 needs: verify
-project: KMS
+project: PKM
 role: guide
-tags: [[KMS Demo]]
+tags: [[PKM Demo]]
 technology: TiddlyWiki [[Node.js]] pnpm
 title: Set Up a Dev Wiki
 type: text/vnd.tiddlywiki
