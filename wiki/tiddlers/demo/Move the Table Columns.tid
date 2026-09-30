@@ -1,11 +1,13 @@
 caption: <<detect-language-lingo "Demo/Title/Move the Table Columns">>
+created: 20260929203502332
 due: 2026-09-28
+modified: 20260929203507514
 priority: 0
 project: PKM
 role: task
-status: done
+status: dropped
 tags: [[PKM Demo]]
 title: Move the Table Columns
 type: text/vnd.tiddlywiki
 
-Take the columns of the schema's fields out of Dynamic Table and into PKM Fields. Done: its row in the Playground's table is written in pale green.
+Take the columns of the schema's fields out of Dynamic Table and into PKM Fields. Done: its row in the Playground's table has a faint green background.

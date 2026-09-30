@@ -1,3 +1,5 @@
+created: 20260929201444344
+modified: 20260929233626254
 title: Playground
 type: text/vnd.tiddlywiki
 
@@ -7,7 +9,7 @@ type: text/vnd.tiddlywiki
 
 <<detect-language-lingo "Playground/TableBody">>
 
-<<dyntable filter:"[tag[PKM Demo]]" fields:"title role maturity lifecycle needs status priority due project epistemology regime deviation disciplines technology equipment" stateTiddler:"Playground/demo">>
+<<dyntable filter:"[tag[PKM Demo]]" fields:"title nk-size role maturity lifecycle needs status priority due project epistemology regime deviation disciplines technology equipment" stateTiddler:"Playground/demo" footer:"sum" class="thead-dark table-tight table-rounded-3 table-sides table-center text-center">>
 
 <<detect-language-lingo "Playground/EditorHeading" mode="block">>
 
