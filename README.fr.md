@@ -14,13 +14,6 @@ Le wiki charge aussi les plugins compagnons, des plugins autonomes plutôt que d
 
 Ce dépôt ne contient aucun plugin : seulement un wiki de dev qui les charge tous ensemble, sur quelques tiddlers de démo, pour voir la suite et y travailler comme un tout. Chaque plugin est développé, documenté et construit dans son propre dépôt.
 
-## Sommaire
-
-- [Prise en main](#prise-en-main)
-- [Organisation](#organisation)
-- [Ajouter un plugin](#ajouter-un-plugin)
-- [Licence](#licence)
-
 ## Prise en main
 
 Les dépôts des plugins sont placés à côté de celui-ci (`../TW-PKM-Schema`, `../TW-PKM-Fields`, …), chaque plugin relié par un lien symbolique `$TIDDLYWIKI_PLUGIN_PATH/nikorion/<name>` → `<repository>/src/<name>` — le seul moyen pour TiddlyWiki de résoudre les entrées `"nikorion/<name>"` de `wiki/tiddlywiki.info`.
@@ -32,8 +25,6 @@ pnpm build   # docs/PKM-Wiki.html
 ```
 
 `pnpm dev` surveille les sources de tous les plugins qu'il charge, suite et compagnons, ainsi que `wiki/tiddlers` : une modification de l'un d'eux est poussée directement dans l'onglet de navigateur déjà ouvert, et une modification de `plugin.info` ou d'un module JS redémarre le serveur. Ne pas recharger l'onglet pour voir une modification : il reviendrait tel que le serveur l'a chargé au démarrage. Arrêter avec deux Ctrl+C. `PKM.code-workspace` ouvre ce dépôt et ceux des plugins ensemble.
-
-[↑](#sommaire "Retour au sommaire")
 
 ## Organisation
 
@@ -47,16 +38,10 @@ pnpm build   # docs/PKM-Wiki.html
 | `wiki/tiddlers/system/` | config de dev : `$:/config/SyncFilter` (empêche les tiddlers de plugin poussés d'être écrits sur le disque), chemins de fichiers, client HMR |
 | `scripts/dev.cjs`, `scripts/dev-hmr.cjs`, `nodemon.json` | le serveur de dev et le rechargement à chaud, comme dans chaque dépôt de plugin mais en surveillant toutes les sources de la suite |
 
-[↑](#sommaire "Retour au sommaire")
-
 ## Ajouter un plugin
 
 Qu'il s'agisse d'un membre de la suite ou d'un compagnon : ajouter son `"nikorion/<name>"` à `wiki/tiddlywiki.info`, son `src/<name>` à `WATCH_DIRS` dans `scripts/dev-hmr.cjs`, son `plugin.info` (et ses modules JS, s'il en a) à `nodemon.json`, ses préfixes de tiddlers à `$:/config/SyncFilter` (tous sauf ses réglages `$:/config/nikorion/<name>/`, qui appartiennent à l'utilisateur), et son dossier à `PKM.code-workspace`.
 
-[↑](#sommaire "Retour au sommaire")
-
 ## Licence
 
 MIT — voir `LICENSE`.
-
-[↑](#sommaire "Retour au sommaire")
