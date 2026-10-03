@@ -33,7 +33,7 @@ pnpm build   # docs/PKM-Wiki.html
 
 `pnpm dev` surveille les sources de tous les plugins qu'il charge, suite et compagnons, ainsi que `wiki/tiddlers` : une modification de l'un d'eux est poussée directement dans l'onglet de navigateur déjà ouvert, et une modification de `plugin.info` ou d'un module JS redémarre le serveur. Ne pas recharger l'onglet pour voir une modification : il reviendrait tel que le serveur l'a chargé au démarrage. Arrêter avec deux Ctrl+C. `PKM.code-workspace` ouvre ce dépôt et ceux des plugins ensemble.
 
-[↑ Retour au sommaire](#sommaire)
+[↑](#sommaire "Retour au sommaire")
 
 ## Organisation
 
@@ -47,16 +47,16 @@ pnpm build   # docs/PKM-Wiki.html
 | `wiki/tiddlers/system/` | config de dev : `$:/config/SyncFilter` (empêche les tiddlers de plugin poussés d'être écrits sur le disque), chemins de fichiers, client HMR |
 | `scripts/dev.cjs`, `scripts/dev-hmr.cjs`, `nodemon.json` | le serveur de dev et le rechargement à chaud, comme dans chaque dépôt de plugin mais en surveillant toutes les sources de la suite |
 
-[↑ Retour au sommaire](#sommaire)
+[↑](#sommaire "Retour au sommaire")
 
 ## Ajouter un plugin
 
 Qu'il s'agisse d'un membre de la suite ou d'un compagnon : ajouter son `"nikorion/<name>"` à `wiki/tiddlywiki.info`, son `src/<name>` à `WATCH_DIRS` dans `scripts/dev-hmr.cjs`, son `plugin.info` (et ses modules JS, s'il en a) à `nodemon.json`, ses préfixes de tiddlers à `$:/config/SyncFilter` (tous sauf ses réglages `$:/config/nikorion/<name>/`, qui appartiennent à l'utilisateur), et son dossier à `PKM.code-workspace`.
 
-[↑ Retour au sommaire](#sommaire)
+[↑](#sommaire "Retour au sommaire")
 
 ## Licence
 
 MIT — voir `LICENSE`.
 
-[↑ Retour au sommaire](#sommaire)
+[↑](#sommaire "Retour au sommaire")
