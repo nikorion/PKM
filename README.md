@@ -1,5 +1,7 @@
 # PKM
 
+**English** · [Français](README.fr.md)
+
 Integration wiki of the *pkm* suite of [TiddlyWiki](https://tiddlywiki.com) plugins — a knowledge management system built out of plugins that each do one thing and share one schema:
 
 | Plugin | Repository | Role |
