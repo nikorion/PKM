@@ -36,11 +36,11 @@ pnpm build   # docs/PKM-Wiki.html
 | `wiki/tiddlers/demo/` | tiddlers de démo (tag `PKM Demo`), un par type de rôle |
 | `wiki/tiddlers/language/<lang>/*.multids` | les chaînes d'About et du Playground, un fichier chacun, via le `detect-language-lingo` de Detect Language |
 | `wiki/tiddlers/system/` | config de dev : `$:/config/SyncFilter` (empêche les tiddlers de plugin poussés d'être écrits sur le disque), chemins de fichiers, client HMR |
-| `scripts/dev.cjs`, `scripts/dev-hmr.cjs`, `nodemon.json` | le serveur de dev et le rechargement à chaud, comme dans chaque dépôt de plugin mais en surveillant toutes les sources de la suite |
+| `package.json` | `pnpm dev` lance le serveur de dev partagé `../tw-dev` (rechargement à chaud), comme dans chaque dépôt de plugin ; il surveille les sources de tous les plugins que le wiki charge, donc ici de tous |
 
 ## Ajouter un plugin
 
-Qu'il s'agisse d'un membre de la suite ou d'un compagnon : ajouter son `"nikorion/<name>"` à `wiki/tiddlywiki.info`, son `src/<name>` à `WATCH_DIRS` dans `scripts/dev-hmr.cjs`, son `plugin.info` (et ses modules JS, s'il en a) à `nodemon.json`, ses préfixes de tiddlers à `$:/config/SyncFilter` (tous sauf ses réglages `$:/config/nikorion/<name>/`, qui appartiennent à l'utilisateur), et son dossier à `PKM.code-workspace`.
+Qu'il s'agisse d'un membre de la suite ou d'un compagnon : ajouter son `"nikorion/<name>"` à `wiki/tiddlywiki.info` et son dossier à `PKM.code-workspace`. Rien d'autre : le serveur de dev surveille les sources de chaque plugin listé dans `tiddlywiki.info`, et `$:/config/SyncFilter` exclut déjà tout tiddler `$:/plugins/nikorion/`.
 
 ## Licence
 

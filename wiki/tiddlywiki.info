@@ -29,7 +29,7 @@
     "html": [
       "--output", "docs",
       "--rendertiddler", "$:/core/save/all", "PKM-Wiki.html", "text/plain", "",
-      "publishFilter", "-[[$:/dev/hmr]] -[[$:/config/dev/hmr-port]] -[[$:/config/SyncFilter]] -[[$:/config/FileSystemPaths]] -[[$:/config/OriginalTiddlerPaths]]"
+      "publishFilter", "-[[$:/config/SyncFilter]] -[[$:/config/FileSystemPaths]] -[[$:/config/OriginalTiddlerPaths]]"
     ]
   }
 }

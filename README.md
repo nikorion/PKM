@@ -36,11 +36,11 @@ pnpm build   # docs/PKM-Wiki.html
 | `wiki/tiddlers/demo/` | demo tiddlers (tag `PKM Demo`), one per kind of role |
 | `wiki/tiddlers/language/<lang>/*.multids` | the strings of About and the Playground, one file each, through Detect Language's `detect-language-lingo` |
 | `wiki/tiddlers/system/` | dev config: `$:/config/SyncFilter` (keeps pushed plugin tiddlers out of the disk), file paths, HMR client |
-| `scripts/dev.cjs`, `scripts/dev-hmr.cjs`, `nodemon.json` | the dev server and hot reload, as in every plugin repository but watching all the suite's sources |
+| `package.json` | `pnpm dev` runs the shared dev server `../tw-dev` (hot reload), as in every plugin repository; it watches the sources of every plugin the wiki loads, so here all of them |
 
 ## Adding a plugin
 
-A member of the suite or a companion alike: add its `"nikorion/<name>"` to `wiki/tiddlywiki.info`, its `src/<name>` to `WATCH_DIRS` in `scripts/dev-hmr.cjs`, its `plugin.info` (and JS modules, if any) to `nodemon.json`, its tiddler prefixes to `$:/config/SyncFilter` (all but its `$:/config/nikorion/<name>/` settings, which are the user's), and its folder to `PKM.code-workspace`.
+A member of the suite or a companion alike: add its `"nikorion/<name>"` to `wiki/tiddlywiki.info` and its folder to `PKM.code-workspace`. Nothing else: the dev server watches the sources of every plugin listed in `tiddlywiki.info`, and `$:/config/SyncFilter` already excludes every `$:/plugins/nikorion/` tiddler.
 
 ## License
 
