@@ -16,7 +16,7 @@ Ce dépôt ne contient aucun plugin : seulement un wiki de dev qui les charge to
 
 ## Prise en main
 
-Les dépôts des plugins sont placés à côté de celui-ci (`../TW-PKM-Schema`, `../TW-PKM-Fields`, …), chaque plugin relié par un lien symbolique `$TIDDLYWIKI_PLUGIN_PATH/nikorion/<name>` → `<repository>/src/<name>` — le seul moyen pour TiddlyWiki de résoudre les entrées `"nikorion/<name>"` de `wiki/tiddlywiki.info`.
+Les dépôts des plugins sont placés à côté de celui-ci (`../TW-PKM-Schema`, `../TW-PKM-Fields`, …). Cloner [tw-dev](https://github.com/nikorion/tw-dev) à côté de ce dépôt : `pnpm dev` l'exécute, et il relie lui-même les plugins nikorion que charge le wiki de dev — depuis les clones placés à côté de celui-ci (`../TW-Math`…), pour que vos modifications y soient prises en direct, sinon depuis une copie en lecture seule qu'il récupère sur GitHub. Ni lien symbolique, ni `TIDDLYWIKI_PLUGIN_PATH`, ni droits administrateur. Seul `pnpm build` a encore besoin de `TIDDLYWIKI_PLUGIN_PATH` : le faire pointer sur `../tw-dev/.state/PKM/plugins`, créé par `pnpm dev`.
 
 ```sh
 pnpm install
