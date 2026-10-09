@@ -8,7 +8,7 @@ Wiki d'intégration de la suite *pkm* de plugins [TiddlyWiki](https://tiddlywiki
 |---|---|---|
 | PKM Schema | [TW-PKM-Schema](https://github.com/nikorion/TW-PKM-Schema) | les champs, leurs vocabulaires, icônes, libellés et traductions, et l'API par laquelle les autres plugins les lisent |
 | PKM Fields | [TW-PKM-Fields](https://github.com/nikorion/TW-PKM-Fields) | l'interface : place ces champs dans le modèle d'édition des tiddlers, et dans les colonnes de Dynamic Table |
-| Detect Language | [TW-Detect-Language](https://github.com/nikorion/TW-Detect-Language) | outillage de dev : suit la langue du navigateur (en-GB, fr-FR) |
+| Detect Language | [tw-detect-language](https://github.com/nikorion/tw-detect-language) | outillage de dev : suit la langue du navigateur (en-GB, fr-FR) |
 
 Le wiki charge aussi les plugins compagnons, des plugins autonomes plutôt que des membres de la suite, destinés au même digital garden : [TW-Dynamic-Table](https://github.com/nikorion/TW-Dynamic-Table) (des tableaux éditables qui ignorent tout du schéma, que PKM Fields leur fait connaître par les points d'extension du tableau), TW-Table, TW-Math, TW-Chart, TW-Fonts, TW-Hover-Tilt, TW-Plugin-Info-Tree, TW-Scroll-Layout et TW-Tiny-Bootstrap.
 

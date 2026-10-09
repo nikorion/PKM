@@ -4,7 +4,7 @@
 		{ "path": "../TW-PKM-Schema" },
 		{ "path": "../TW-PKM-Fields" },
 		{ "path": "../TW-Dynamic-Table" },
-		{ "path": "../TW-Detect-Language" },
+		{ "path": "../tw-detect-language" },
 		{ "path": "../TW-Table" },
 		{ "path": "../TW-Math" },
 		{ "path": "../TW-Chart" },
