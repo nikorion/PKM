@@ -35,7 +35,7 @@ pnpm build   # docs/PKM-Wiki.html
 | `wiki/tiddlers/Playground.tid` | the entry page: the demo tiddlers in a table, and what to try |
 | `wiki/tiddlers/demo/` | demo tiddlers (tag `PKM Demo`), one per kind of role |
 | `wiki/tiddlers/language/<lang>/*.multids` | the strings of About and the Playground, one file each, through Detect Language's `detect-language-lingo` |
-| `wiki/tiddlers/system/` | dev config: `$:/config/SyncFilter` (keeps pushed plugin tiddlers out of the disk), file paths, HMR client |
+| `wiki/tiddlers/system/` | dev config: `$:/config/SyncFilter` (keeps pushed plugin tiddlers out of the disk), file paths, layout and dyntable settings (the HMR client is loaded by `tw-dev` for the session, never stored here) |
 | `package.json` | `pnpm dev` runs the shared dev server `../tw-dev` (hot reload), as in every plugin repository; it watches the sources of every plugin the wiki loads, so here all of them |
 
 ## Adding a plugin
