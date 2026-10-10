@@ -9,11 +9,13 @@
     "nikorion/table",
     "nikorion/math",
     "nikorion/chart",
-    "nikorion/fonts",
+    "nikorion/font-manager",
     "nikorion/hover-tilt",
     "nikorion/plugin-info-tree",
     "nikorion/scroll-layout",
     "nikorion/tiny-bootstrap",
+    "tiddlywiki/highlight",
+    "tiddlywiki/katex",
     "nikorion/detect-language"
   ],
   "themes": [
@@ -27,9 +29,15 @@
   },
   "build": {
     "html": [
-      "--output", "docs",
-      "--rendertiddler", "$:/core/save/all", "PKM-Wiki.html", "text/plain", "",
-      "publishFilter", "-[[$:/config/SyncFilter]] -[[$:/config/FileSystemPaths]] -[[$:/config/OriginalTiddlerPaths]]"
+      "--output",
+      "docs",
+      "--rendertiddler",
+      "$:/core/save/all",
+      "PKM-Wiki.html",
+      "text/plain",
+      "",
+      "publishFilter",
+      "-[[$:/config/SyncFilter]] -[[$:/config/FileSystemPaths]] -[[$:/config/OriginalTiddlerPaths]] -[[$:/plugins/kookma/commander]]"
     ]
   }
 }

@@ -8,7 +8,7 @@
 		{ "path": "../TW-Table" },
 		{ "path": "../TW-Math" },
 		{ "path": "../TW-Chart" },
-		{ "path": "../TW-Fonts" },
+		{ "path": "../TW-Font-Manager" },
 		{ "path": "../TW-Hover-Tilt" },
 		{ "path": "../TW-Plugin-Info-Tree" },
 		{ "path": "../TW-Scroll-Layout" },

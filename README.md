@@ -10,7 +10,7 @@ Integration wiki of the *pkm* suite of [TiddlyWiki](https://tiddlywiki.com) plug
 | PKM Fields | [TW-PKM-Fields](https://github.com/nikorion/TW-PKM-Fields) | the interface: puts those fields in the tiddler edit template, and in Dynamic Table's columns |
 | Detect Language | [tw-detect-language](https://github.com/nikorion/tw-detect-language) | dev tooling: follows the browser's language (en-GB, fr-FR) |
 
-The wiki also loads the companion plugins, standalone plugins rather than members of the suite, meant for the same digital garden: [TW-Dynamic-Table](https://github.com/nikorion/TW-Dynamic-Table) (editable tables that know nothing of the schema, which PKM Fields teaches through the table's extension points), TW-Table, TW-Math, TW-Chart, TW-Fonts, TW-Hover-Tilt, TW-Plugin-Info-Tree, TW-Scroll-Layout and TW-Tiny-Bootstrap.
+The wiki also loads the companion plugins, standalone plugins rather than members of the suite, meant for the same digital garden: [TW-Dynamic-Table](https://github.com/nikorion/TW-Dynamic-Table) (editable tables that know nothing of the schema, which PKM Fields teaches through the table's extension points), TW-Table, TW-Math, TW-Chart, TW-Font-Manager, TW-Hover-Tilt, TW-Plugin-Info-Tree, TW-Scroll-Layout and TW-Tiny-Bootstrap.
 
 This repository holds no plugin: only a dev wiki that loads them all together, on a few demo tiddlers, to see and work on the suite as a whole. Each plugin is developed, documented and built in its own repository.
 
