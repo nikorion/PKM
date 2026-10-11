@@ -2,6 +2,8 @@
 
 [English](README.md) · **Français**
 
+![Status](https://img.shields.io/badge/status-experimental-orange)
+
 Wiki d'intégration de la suite *pkm* de plugins [TiddlyWiki](https://tiddlywiki.com) — un système de gestion des connaissances bâti sur des plugins qui font chacun une seule chose et partagent un même schéma :
 
 | Plugin | Dépôt | Rôle |

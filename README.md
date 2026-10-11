@@ -2,6 +2,8 @@
 
 **English** · [Français](README.fr.md)
 
+![Status](https://img.shields.io/badge/status-experimental-orange)
+
 Integration wiki of the *pkm* suite of [TiddlyWiki](https://tiddlywiki.com) plugins — a knowledge management system built out of plugins that each do one thing and share one schema:
 
 | Plugin | Repository | Role |
