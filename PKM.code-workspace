@@ -1,17 +1,15 @@
 {
 	"folders": [
 		{ "path": "." },
-		{ "path": "../TW-PKM-Schema" },
-		{ "path": "../TW-PKM-Fields" },
 		{ "path": "../TW-Dynamic-Table" },
-		{ "path": "../tw-detect-language" },
-		{ "path": "../TW-Table" },
-		{ "path": "../TW-Math" },
-		{ "path": "../TW-Chart" },
 		{ "path": "../TW-Font-Manager" },
-		{ "path": "../TW-Hover-Tilt" },
-		{ "path": "../TW-Plugin-Info-Tree" },
+		{ "path": "../TW-Math" },
+		{ "path": "../TW-PKM-Fields" },
+		{ "path": "../TW-PKM-Palette" },
+		{ "path": "../TW-PKM-Schema" },
+		{ "path": "../TW-PKM-Theme" },
 		{ "path": "../TW-Scroll-Layout" },
+		{ "path": "../TW-Table" },
 		{ "path": "../TW-Tiny-Bootstrap" }
 	],
 	"settings": {}
