@@ -37,7 +37,7 @@
       "text/plain",
       "",
       "publishFilter",
-      "-[[$:/config/SyncFilter]] -[[$:/config/FileSystemPaths]] -[[$:/config/OriginalTiddlerPaths]] -[[$:/plugins/kookma/commander]]"
+      "-[[$:/config/SyncFilter]] -[[$:/config/FileSystemPaths]] -[[$:/config/OriginalTiddlerPaths]] -[[$:/plugins/kookma/commander]] -[[$:/plugins/oeyoews/tiddlywiki-codemirror-6]] -[[$:/plugins/wikilabs/link-to-tabs]]"
     ]
   }
 }
