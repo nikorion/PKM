@@ -11,7 +11,7 @@
 		{ "path": "../TW-Font-Manager" },
 		{ "path": "../TW-Hover-Tilt" },
 		{ "path": "../TW-Plugin-Info-Tree" },
-		{ "path": "../TW-Scroll-Layout" },
+		{ "path": "../TW-Layout" },
 		{ "path": "../TW-Tiny-Bootstrap" }
 	],
 	"settings": {}
