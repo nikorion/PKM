@@ -2,8 +2,8 @@ title: $:/nikorion/language/fr-FR/Playground/
 
 Intro: Le wiki d'intégration de la suite //pkm// : tous les plugins de la suite chargés ensemble, sur quelques tiddlers de démonstration — le schéma définit les champs, PKM Fields les édite, Dynamic Table les dispose en colonnes.
 TableHeading: ! Les tiddlers de démonstration, en tableau
-TableBody: Chaque colonne est un champ du schéma, avec son libellé en en-tête et ses valeurs affichées avec leurs icônes et libellés. Clique sur le crayon de la légende pour les éditer sur place : listes déroulantes pour les vocabulaires, cases à cocher pour Besoins, sélecteur de PKM Fields pour les listes, sélecteur de date pour Échéance. Une tâche terminée (statut //Fait//) a une ligne sur fond vert léger, une tâche abandonnée (//Abandonné//) sur fond rouge léger.
+TableBody: Chaque colonne est un champ du schéma, avec son libellé en en-tête et ses valeurs affichées avec leurs icônes et libellés. Cliquez sur le crayon de la légende pour les éditer sur place : listes déroulantes pour les vocabulaires, cases à cocher pour Besoins, sélecteur de PKM Fields pour les listes, sélecteur de date pour Échéance. Une tâche terminée (statut //Fait//) a une ligne sur fond vert léger, une tâche abandonnée (//Abandonné//) sur fond rouge léger.
 EditorHeading: ! Dans l'éditeur
-EditorBody: Ouvre l'un d'eux et modifie-le pour voir les mêmes champs dans l'éditeur de tiddler. //Old Plugin Layout// porte encore un `status`, qu'une référence n'utilise pas : l'éditeur l'affiche entouré de rouge, et le tableau laisse sa ligne sans couleur bien qu'il indique //Fait//.
+EditorBody: Ouvrez l'un d'eux et modifiez-le pour voir les mêmes champs dans l'éditeur de tiddler. //Old Plugin Layout// porte encore un `status`, qu'une référence n'utilise pas : l'éditeur l'affiche entouré de rouge, et le tableau laisse sa ligne sans couleur bien qu'il indique //Fait//.
 SchemaHeading: ! Le schéma
 SchemaBody: L'onglet //Champs// du plugin PKM Schema liste chaque champ et chaque valeur, avec son sens.
