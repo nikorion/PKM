@@ -12,7 +12,7 @@
     "nikorion/font-manager",
     "nikorion/hover-tilt",
     "nikorion/plugin-info-tree",
-    "nikorion/layout",
+    "nikorion/scroll-layout",
     "nikorion/tiny-bootstrap",
     "tiddlywiki/highlight",
     "tiddlywiki/katex",
