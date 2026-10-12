@@ -3,7 +3,7 @@
 > **Avant toute tâche ici, consulter d'abord le `CLAUDE.md` du workspace** (`../CLAUDE.md`, dont § Suite pkm) et ses `guides/` (HMR, pièges PowerShell/Windows, `publishFilter`). Ci-dessous : uniquement le spécifique à PKM.
 
 ## Ce que c'est
-**pkm-dev** : wiki de dev d'**intégration** de la suite pkm (créé le 2026-09-28) : charge la suite (`nikorion/pkm-schema`, `pkm-fields`, `detect-language`) et tous les compagnons (`dyntable`, `table`, `math`, `chart`, `fonts`, `hover-tilt`, `plugin-info-tree`, `layout`, `tiny-bootstrap`) sur des tiddlers de démo (`wiki/tiddlers/demo/`, tag `PKM Demo`) et un Playground. **Aucun plugin ici** : chaque plugin se développe, se documente et se builde dans son propre dépôt ; ne jamais y déposer de source de plugin. `pnpm build` ne produit que `docs/PKM-Wiki.html` (pas de target `plugin-json`).
+**pkm-dev** : wiki de dev d'**intégration** de la suite pkm (créé le 2026-09-28) : charge la suite (`nikorion/pkm-schema`, `pkm-fields`, `detect-language`) et tous les compagnons (`dyntable`, `table`, `math`, `chart`, `font-manager`, `hover-tilt`, `plugin-info-tree`, `scroll-layout`, `tiny-bootstrap`) sur des tiddlers de démo (`wiki/tiddlers/demo/`, tag `PKM Demo`) et un Playground. **Aucun plugin ici** : chaque plugin se développe, se documente et se builde dans son propre dépôt ; ne jamais y déposer de source de plugin. `pnpm build` ne produit que `docs/PKM-Wiki.html` (pas de target `plugin-json`).
 
 `README.md` = développeur (installation, disposition, ajout d'un plugin à la suite) ; ce fichier = modèle ; pas de readme de plugin (pas de plugin).
 
